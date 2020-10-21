@@ -16,9 +16,7 @@ def run_length_enconder(string):
     """
 
     if not isinstance(string, str):
-        raise TypeError(f" {string} is not a string typer")
-
-
+        raise TypeError(f" {string} is not a string type")
 
     result=[]
     counter = 0
